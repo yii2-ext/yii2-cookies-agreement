@@ -1,12 +1,12 @@
 <?php
 
-namespace andrewdanilov\CookiesAgreement;
+namespace proweb\CookiesAgreement;
 
 use yii\web\AssetBundle;
 
 class CookiesAgreementAsset extends AssetBundle
 {
-	public $sourcePath = '@andrewdanilov/CookiesAgreement/web';
+	public $sourcePath = '@proweb/CookiesAgreement/web';
 	public $css = [
 		'css/cookie-policy.css',
 	];

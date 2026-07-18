@@ -1,5 +1,5 @@
 {
-    "name": "andrewdanilov/yii2-cookies-agreement",
+    "name": "proweb/yii2-cookies-agreement",
     "description": "Sticky footer panel widget, which lets your visitors to accept user policy agreement.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","cookies","policy","agreement"],
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "andrewdanilov\\CookiesAgreement\\": "src/"
+            "proweb\\CookiesAgreement\\": "src/"
         }
     }
 }

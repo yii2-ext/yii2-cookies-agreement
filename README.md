@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require andrewdanilov/yii2-cookies-agreement
+composer require proweb/yii2-cookies-agreement
 ```
 
 or add
 
 ```
-"andrewdanilov/yii2-cookies-agreement": "@stable"
+"proweb/yii2-cookies-agreement": "@stable"
 ```
 
 to the require section of your `composer.json` file.
