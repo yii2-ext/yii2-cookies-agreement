@@ -8,6 +8,10 @@
         {
             "name": "AndrewDanilov",
             "email": "andrewdanilov@gmail.com"
+        },
+        {
+            "name": "Sergey Mochalov",
+            "homepage": "https://sg43.ru"
         }
     ],
     "require": {
