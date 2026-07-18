@@ -1,6 +1,6 @@
 <?php
 
-namespace andrewdanilov\CookiesAgreement;
+namespace proweb\CookiesAgreement;
 
 use yii\base\Widget;
 
