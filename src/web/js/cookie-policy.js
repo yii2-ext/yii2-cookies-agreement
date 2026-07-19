@@ -1,9 +1,17 @@
-$(function () {
-	if (!$.cookie("cookie-policy")) {
-		$('.cookie-policy').show();
+document.addEventListener('DOMContentLoaded', function () {
+	var banner = document.querySelector('.cookie-policy');
+	var closeButton = document.querySelector('.cookie-policy .close-button');
+
+	if (!banner || !closeButton) {
+		return;
 	}
-	$('.cookie-policy .close-button').click(function () {
-		$.cookie("cookie-policy", 1);
-		$('.cookie-policy').hide();
+
+	if (!Cookies.get('cookie-policy')) {
+		banner.style.display = 'block';
+	}
+
+	closeButton.addEventListener('click', function () {
+		Cookies.set('cookie-policy', '1');
+		banner.style.display = 'none';
 	});
 });
