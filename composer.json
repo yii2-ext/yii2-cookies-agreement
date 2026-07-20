@@ -1,9 +1,14 @@
 {
     "name": "proweb/yii2-cookies-agreement",
     "description": "Sticky footer panel widget, which lets your visitors to accept user policy agreement.",
-    "version": "1.0.0",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","cookies","policy","agreement"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "cookies",
+        "policy",
+        "agreement"
+    ],
     "license": "MIT",
     "authors": [
         {
