@@ -11,6 +11,6 @@ CookiesAgreementAsset::register($this);
 ?>
 
 <div class="cookie-policy">
-	<?= Yii::t('app', $message, ['href' => $url]) ?>
-	<div class="close-button"></div>
+	<p><?= Yii::t('app', $message, ['href' => $url]) ?></p>
+	<button type="button" class="cookie-policy-close">Хорошо</button>
 </div>

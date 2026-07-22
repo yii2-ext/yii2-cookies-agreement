@@ -1,32 +1,62 @@
 .cookie-policy {
-  display: none;
+  display: flex;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  padding: 10px;
-  background-color: #ececec;
+  bottom: 2rem;
+  left: 2rem;
+  margin-right: 2rem;
+  max-width: 420px;
+  padding: 1rem;
+  background-color: #fff;
   color: #222;
-  font-size: 12px;
-  text-align: center;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
   z-index: 1000001;
-  line-height: 1em;
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  align-items: center;
 }
+
+.cookie-policy p {
+  margin-bottom: 0;
+}
+
+
 .cookie-policy a {
-  color: #222;
+  text-decoration: none;
+}
+
+.cookie-policy a:hover {
   text-decoration: underline;
 }
-.cookie-policy .close-button {
-  display: block;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+
+.cookie-policy .cookie-policy-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  background: #198754;
+  opacity: 0.6;
+  border: 1px solid rgba(255, 255, 255, 0.94);
+  border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  height: 32px;
 }
-.cookie-policy .close-button:after {
-  display: inline-block;
-  content: "\00d7";
-  font-size: 20px;
+
+.cookie-policy .cookie-policy-close:hover {
+  opacity: 1;
+  background-color: #198754;
 }
-/*# sourceMappingURL=cookie-policy.css.map */
+
+.cookie-policy .cookie-policy-close:active {
+  opacity: 1;
+  background-color: #198754;
+}
