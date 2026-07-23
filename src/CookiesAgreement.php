@@ -9,15 +9,17 @@ class CookiesAgreement extends Widget
 {
 	public $url;
 	public $message;
-	public $buttonText = 'Хорошо';
+	public $buttonText = 'cookie_button_ok';
 
     public function init()
     {
         $this->registerTranslations();
 
         if (!$this->message) {
-            $this->message = Yii::t('proweb/cookies-agreement', 'Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных, в соответствии с настоящим уведомлением об их использовании. Если вы не согласны с этими условиями, пожалуйста, отключите файлы cookies. Подробнее о <a href="{href}">политике конфиденциальности</a>.');
+            $this->message = 'cookie_message';
         }
+
+        $this->buttonText = Yii::t('proweb/cookies-agreement', $this->buttonText);
         parent::init();
     }
 

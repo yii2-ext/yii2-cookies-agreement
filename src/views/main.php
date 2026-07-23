@@ -8,10 +8,9 @@ use proweb\CookiesAgreement\CookiesAgreementAsset;
 /* @var $buttonText string */
 
 CookiesAgreementAsset::register($this);
-
 ?>
 
 <div class="cookie-policy">
 	<p><?= Yii::t('proweb/cookies-agreement', $message, ['href' => $url]) ?></p>
-	<button type="button" class="cookie-policy-close"><?= Yii::t('proweb/cookies-agreement', $buttonText) ?></button>
+	<button type="button" class="cookie-policy-close"><?= $buttonText ?></button>
 </div>
